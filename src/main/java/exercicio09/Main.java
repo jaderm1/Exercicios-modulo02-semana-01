@@ -6,7 +6,7 @@ public class Main {
         System.out.println("Insira o salário do funcionário");
         Scanner salarioInput = new Scanner(System.in);
         double salario = salarioInput.nextDouble();
-        double novoSalario = 0;
+        double novoSalario ;
 
         if (salario <= 1200) {
             novoSalario = salario + (salario * 0.2);
